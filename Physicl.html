@@ -8,29 +8,33 @@
     <link rel="stylesheet" href="Phyisical.css">
 </head>
 <body>
-    <header>
-        <form id="frm1">
-            <h1>Information, Let us get some basic information so we can learn more about you!</h1>
-            <h4>Your name</h4>
-            <input type="text" id="name" placeholder="Your first name is fine" required>
-            <h4>Your email</h4>
-            <input type="email" id="email" placeholder="Include everything the @ as well" required>
-            <h4>Your Phone Number</h4>
-            <input type="number" id="number" placeholder="Your Phone No." required>
-            <h4>Your Age</h4>
-            <input type="number" id="age" placeholder="Your Age" required>
-            <h4>Your Height</h4>
-            <input type="number" id="height" placeholder="In inches" required>
-            <h4>Your Weight</h4>
-            <input type="number" id="weight" placeholder="In lbs" required>
-            <h4>Your Ideal Weight</h4>
-            <input type="number" id="iweight" placeholder="In lbs" required>
-        </form>   
-        <button onclick="submit()">Submit now<id ="sub"></id></button>
-        <h4 id="correct"></h4>
-        <button onclick="confirm()">Confirm</button>
-    </header>
-
+    <div class="left">
+        <header>
+            <form id="frm1">
+                <h1>Information, Let us get some basic information so we can learn more about you!</h1>
+                <h4>Your name</h4>
+                <input type="text" id="name" placeholder="Your first name is fine" required>
+                <h4>Your email</h4>
+                <input type="email" id="email" placeholder="Include everything the @ as well" required>
+                <h4>Your Phone Number</h4>
+                <input type="number" id="number" placeholder="Your Phone No." required>
+                <h4>Your Age</h4>
+                <input type="number" id="age" placeholder="Your Age" required>
+                <h4>Your Height</h4>
+                <input type="number" id="height" placeholder="In inches" required>
+                <h4>Your Weight</h4>
+                <input type="number" id="weight" placeholder="In lbs" required>
+                <h4>Your Ideal Weight</h4>
+                <input type="number" id="iweight" placeholder="In lbs" required>
+            </form>
+            <div class="button">
+                <button onclick="submit()">Submit now<id ="sub"></id></button>
+                <h4 id="correct"></h4>
+                <button id="con" onclick="confirm()">Confirm</button>
+            </div>
+            
+        </header>
+    </div>
 </body>
 <script src="Physical.js"></script>
 </html>
@@ -40,3 +44,17 @@ Footer navigation
 Terms
 Privacy
 Security
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
