@@ -74,6 +74,8 @@ header button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 
@@ -81,17 +83,4 @@ header button {
         background-color: #BF2CDF;
     }
 
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
