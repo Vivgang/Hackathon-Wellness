@@ -1,21 +1,21 @@
-*{
-    padding:0; 
-    margin:0; 
-    box-sizing: border-box; 
-    font-family:sans-serif;
-    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #AD41D0, #3ECA78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
-.container{
-	background: white;
+.container {
+    background: white;
     min-width: 800px;
-	min-height: 500px;
-	display: flex;
-	justify-content:space-between;
-	align-items: flex-start;
-	padding: 0.5rem 1.5rem;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
 }
 
 form {
@@ -29,18 +29,30 @@ form {
     margin: 0 auto;
     height: 700px;
 }
-
+.button {
+    padding: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 40%;
+    max-height: auto;
+    margin: 0 auto;
+    height: 400px;
+    padding-left: 0px;
+}
 form input {
     border: 1;
-	width: 100%;
-	padding: 0.5rem 0.7rem;
-	margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
     background: #fff;
 }
 
 header {
-    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #AD41D0, #3ECA78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  ;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
 }
 
 
@@ -62,10 +74,24 @@ header button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-
-
-header button:hover {
-    background-color: #BF2CDF;
 }
 
+
+    header button:hover {
+        background-color: #BF2CDF;
+    }
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
