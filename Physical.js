@@ -107,7 +107,7 @@ function confirm() {
                                     var protein = weight;
                                     var fat = 0.5 * weight;
                                     var carbs = TDEE - protein - fat;
-                                    document.getElementById("help").innerHTML = "According to your data your estimated BMR(Basal Metobolic Rate) is " + BMR + " and using this and your chosen lifestyle pathway(cut/bulk/maintain), we believe that your TDEE(Total Daily Energy Expenditure) would be " + TDEE + ". In other words to achieve your intended weight we recommend you consume " + TDEE + " calories everyday. More specifically, " + protein + "g of protein, " + fat + "g of fat, and " + carbs + "g of carbohydrates. Thanks for using Nutrimind and click the button to go back to home page."
+                                    document.getElementById("help").innerHTML = "According to your data your estimated BMR(Basal Metobolic Rate) is " + BMR + " and using this and your chosen lifestyle pathway(cut/bulk/maintain), we believe that your TDEE(Total Daily Energy Expenditure) would be " + TDEE + ". In other words to achieve your intended weight we recommend you consume " + TDEE + " calories everyday. More specifically, " + protein + "g of protein, " + fat + "g of fat, and " + carbs + "g of carbohydrates. Thanks for using Nutrimind! Go back to home page for more wellness information."
                                 }
                             }
                         }
