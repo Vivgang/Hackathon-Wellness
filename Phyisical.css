@@ -9,7 +9,8 @@
 
 
 .container {
-    background: white;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
     min-width: 800px;
     min-height: 500px;
     display: flex;
@@ -18,9 +19,14 @@
     padding: 0.5rem 1.5rem;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
 form {
     padding: 1rem;
-    background: #fff;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -46,22 +52,32 @@ form input {
     width: 100%;
     padding: 0.5rem 0.7rem;
     margin: 0.5rem 0;
-    background: #fff;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
 }
 
 header {
-    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #AD41D0, #3ECA78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    background: #131313;
 }
 
-
+.button {
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
+}
+.left {
+background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
+}
 h4 {
-    background: #fff;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
+    color: #fff;
 }
 
 h1 {
-    background: #fff;
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AD41D0, #3ECA78);
+    color: #fff;
 }
 
 header button {
@@ -74,6 +90,8 @@ header button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 
