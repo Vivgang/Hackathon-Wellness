@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "phyMain.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon-16x16.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="load-more-button.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+        
+<nav class="navbar">
+    <img src="logofinal.png" alt="" class="logo">
+    <a href="index.html" id="navbar__logo">Nutrimind</a>
+    <div class="navbar__container">
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+</nav>
+<div class="main">
+  <div class="main__container">
+    <div class="main__content">
+      <h1>Want Personalized</h1>
+      <h2>Results?</h2>
+      <p>Take this survey to get results.</p>
+      <button class="main__btn"><a href="Physicl.html">Get Started</a></button>
+    </div>
+    <div class="main__img--container">
+      <img id="main__img" src="survey-icon-12.png">
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="container" style="background-color: black;">
+<div style="color: white;"><h1>Relaxation Tactics</h1></div>
+  <div class="flex" style="color:white; border-style: solid;">
+    <div class="content" style="background-image: url(
+      meditation.jpg); background-size: 525px;"></div><button><a href="Meditation.html">Explore</a></button>
+  </div>
+
+  <div class="flex" style="color:white; border-style: solid;">
+    <div class="content" style="background-image: url(
+      waves.jpg); background-size: 625px; height: 300px;"></div><button><a href="Noises.html">Explore</a></button>
+  </div>
+
+  <div class="flex" style="color:white; border-style: solid;">
+    <div class="content" style="background-image: url(
+      yoga.jpg); height: 350px; background-size: 600px;"></div><button><a href="Yoga.html">Explore</a></button>
+  </div>
+
+  <div class="flex" style="color:white; border-style: solid;">
+    <div class="content" style="background-image: url(
+      taichi.jpg); background-size: 520px; height: 350px;"></div><button><a href="Taichi.html">Explore</a></button>
+  </div>
+  <a href="#" id="loadMore">Explore More</a>
+</div>
+
+
+
+<!--<div id="card-container">
+</div>
+<div class="card-actions">
+  <button id="load-more">Load more</button>
+  <span style="color: white;">Showing 
+    <span id="card-count"></span> of 
+    <span id="card-total"></span> cards      
+  </span>
+</div>
+<div style="margin-top: 50px;" class = "info">
+    <center>
+    <p><b>Don't know much about nutrition ?</b></p>
+    <p><b>Take this quick survey to find out your needs</b></p>
+    <a href = "Physicl.html">Quick Survey</a>
+    </center>
+    </div>-->
+<script>
+$(document).ready(function(){
+  $(".content").slice(0, 2).show();
+  $("#loadMore").on("click", function(e){
+    e.preventDefault();
+    $(".content:hidden").slice(0, 2).slideDown();
+    if($(".content:hidden").length == 0) {
+      $("#loadMore").text("No Content").addClass("noContent");
+    }
+  });
+  
+})
+</script>
+
+</body>
+</html>
