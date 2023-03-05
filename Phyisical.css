@@ -74,13 +74,10 @@ header button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 60px;
-    margin-bottom: 10px;
 }
 
 
     header button:hover {
         background-color: #BF2CDF;
     }
-
 
