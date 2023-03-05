@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="Phyisical.css">
 </head>
 <body>
+    <nav class="navbar">
+        <img src="logofinal.png" alt="" class="logo">
+        <a href="index.html" id="navbar__logo">Nutrimind</a>
+        <div class="navbar__container">
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="mental.html" class="navbar__links">Mental</a>
+            </li>
+            <li class="navbar__item">
+              <a href="Physicl.html" class="navbar__links">Physical</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <div class="left">
         <header>
             <form id="frm1" name="survey">
@@ -18,7 +37,10 @@
                 <h4>Your email</h4>
                 <input type="email" id="email" name="1" placeholder="Include everything the @ as well" required>
                 <h4>Your Gender</h4>
-                <input type="text" id="gender" name="2" placeholder="M/F" required>
+                <select>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
                 <h4>Your Age</h4>
                 <input type="number" id="age" name="3" placeholder="Your Age" required>
                 <h4>Your Height</h4>
@@ -28,7 +50,14 @@
                 <h4>Your Ideal Weight</h4>
                 <input type="number" id="iweight" name="6" placeholder="In lbs" required>
                 <h4>Your Daily Activeness</h4>
-                <input type="text" id="active" name="7" placeholder="Sedentary/Lightly/Moderately/Very/Extremely" required>
+                <select>
+                    <option value="Sedentary">Sedentary</option>
+                    <option value="Lightly">Lightly Active</option>
+                    <option value="Moderately">Moderately Active</option>
+                    <option value="Very">Very Active</option>
+                    <option value="Extremely">Extremely Active</option>
+                </select>
+           <!--<input type="text" id="active" name="7" placeholder="Sedentary/Lightly/Moderately/Very/Extremely" required> -->     
             </form>
             <div class="button">
                 
