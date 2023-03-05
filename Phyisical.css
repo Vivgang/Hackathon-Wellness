@@ -22,7 +22,8 @@
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
     opacity: 1; /* Firefox */
-  }
+}
+
 form {
     padding: 1rem;
     background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
@@ -35,6 +36,7 @@ form {
     margin: 0 auto;
     height: 700px;
 }
+
 .button {
     padding: 1rem;
     background: #fff;
@@ -47,6 +49,7 @@ form {
     height: 400px;
     padding-left: 0px;
 }
+
 form input {
     border: 1;
     width: 100%;
@@ -63,21 +66,26 @@ header {
 .button {
     background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #AD41D0, #3ECA78);
+
 }
+
 .left {
-background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #AD41D0, #3ECA78);
 }
-h4 {
+
+h4, h5, h3{
     background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #AD41D0, #3ECA78);
     color: #fff;
+    text-align: center;
 }
 
 h1 {
     background: -webkit-linear-gradient(to right, #3ECA78, #BF2CDF); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #AD41D0, #3ECA78);
     color: #fff;
+    text-align: center;
 }
 
 header button {
@@ -98,4 +106,3 @@ header button {
     header button:hover {
         background-color: #BF2CDF;
     }
-
