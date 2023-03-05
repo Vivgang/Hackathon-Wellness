@@ -74,10 +74,10 @@ function confirm() {
                                         document.getElementById("help_title").innerHTML = "According to your data you want to " + lifestyle + " your weight. If you want to change your path resubmit your info that fits your needs.";
                                     }
                                     var BMR = 0;
-                                    if (gender = "M") {
+                                    if (gender == "M") {
                                         BMR = 655 + (9.6 * weight * 0.453592) + (1.8 * height * 2.54) - (4.7 * age);
                                     }
-                                    else if (gender = "F") {
+                                    else if (gender == "F") {
                                         BMR = 66 + (13.7 * weight * 0.453592) + (5 * height * 2.54) - (6.3 * age);
                                     }
                                     var TDEE = 0;
